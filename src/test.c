@@ -9,7 +9,7 @@
 // -DNDEBUG -static -L ..\lib -lcurl -lws2_32 -lwinmm -lwldap32 -lbcrypt
 
 int main(void) {
-  CURL *curl;
+  CURL* curl;
   CURLcode res;
 
   curl = curl_easy_init();
